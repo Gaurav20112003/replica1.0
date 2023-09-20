@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Replica 1.0</title>
+</head>
+<body>
+
+
+    <div class="sidebar">
+      <div class="logo">
+        <a href="#">
+          <img src="data:image/png;base64,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" alt="Logo" />
+        </a>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+                <img src="/home.png"alt = "home"/>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+                <img src="/search logo.png" height = 30 alt="search"/>
+              <span>Search</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+                <img src="/my library.png" height="33">
+              <span>Your Library</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+                <img src="/creat playlist.png" height=" 35">
+              <span>Create Playlist</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+                <img src="/liked songs.png"height="45" alt="liked songs">
+              <span>Liked Songs</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+                <img src="/play.png"height="60" alt="songs">
+              <span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    
+<div class="maincontainer">
+ <div class="topbar">
+    <div class="prev-next-buttons">
+     <button type="button"><img src="/prev.png" height="30"></button>
+     <button type="button"><img src="/next.png"height="30"></button>
+    </div>
+    <div class="navbar">
+    <ul>
+    <li>
+    <a href="#">
+    <img src="/search logo.png" height="40" />
+    </a>  
+    <li>
+    <input type="text" placeholder="Artists,songs,or podcasts">
+    </li>
+                  
+    </ul>
+                
+    </div>
+            
+ </div>
+</div>
+<div class="spotify-playlists">
+    <h2>Your Top Genres</h2>
+
+    <div class="list">
+      <div class="item">
+        <img src="" />
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Pop</h4>
+
+      </div>
+
+      <div class="item">
+        <img src="" />
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Hip-Hop</h4>
+
+      </div>
+     </div>
+     </div>
+  <div class="spotify-playlists">
+    <h2>Browse All</h2>
+    <div class="list">
+      <div class="item">
+        <img src="" />
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Peaceful Piano</h4>
+
+      </div>
+
+      <div class="item">
+        <img src="" />
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Deep Focus</h4>
+
+      </div>
+
+      <div class="item">
+        <img src="" />
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Instrumental Study</h4>
+
+      </div>
+
+      <div class="item">
+        <img src="" />
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>chill lofi study beats</h4>
+
+      </div>
+
+      
+    </div>
+
+    <hr>
+  </div>
+   <style>* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+    padding: 24px;
+  }
+  .sidebar .logo img {
+    width: 130px;
+  }
+  .sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .sidebar .navigation ul li {
+    padding: 10px 0px;
+  }
+  .sidebar .navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  .sidebar .navigation ul li a:hover,
+  .sidebar .navigation ul li a:active,
+  .sidebar .navigation ul li a:focus {
+    color: #ffffff;
+  }
+  .sidebar .navigation ul li a:hover .fa,
+  .sidebar .navigation ul li a:active .fa,
+  .sidebar .navigation ul li a:focus .fa {
+    color: #b3b3b3;
+  }
+  .sidebar .navigation ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .sidebar .navigation ul li a:hover .fa:hover,
+  .sidebar .navigation ul li a:hover .fa:active,
+  .sidebar .navigation ul li a:hover .fa:focus {
+    color: #ffffff;
+  }
+  .main-container {
+    margin-left: 245px;
+    margin-bottom: 100px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 250px;
+  }
+  .topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+  }
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+    flex-direction: row;
+  }
+  .topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;}
+    .spotify-playlists {
+        padding: 20px 250px;
+      }
+      .spotify-playlists h2 {
+        color: #ffffff;
+        font-size: 44px;
+        margin-bottom: 20px;
+        margin-left: 275px;
+      }
+      .spotify-playlists .list {
+        display: flex;
+        gap: 20px;
+        overflow: auto;
+      }
+      .spotify-playlists .list .item {
+        min-width: 140px;
+        width: 360px;
+        height: 360px;
+        padding: 15px;
+        background-color: purple;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all ease 0.4s;
+      }
+      .spotify-playlists .list .item:hover {
+        background-color: #252525;
+      }
+      .spotify-playlists .list .item img {
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
+      .spotify-playlists .list .item .play {
+        position: relative;
+      }
+      .spotify-playlists .list .item .play .fa {
+        position: absolute;
+        right: 10px;
+        top: -60px;
+        padding: 18px;
+        background-color: #1db954;
+        border-radius: 100%;
+        opacity: 0;
+        transition: all ease 0.4s;
+      }
+      .spotify-playlists .list .item:hover .play .fa {
+        opacity: 1;
+        transform: translateY(-20px);
+      }
+      .spotify-playlists .list .item h4 {
+        color: #ffffff;
+        font-size: 28px;
+        margin-bottom: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+  
+  
+      .spotify-playlists hr {
+        margin: 70px 0px 0px;
+        border-color: #636363;
+      }
+      
+      .preview {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to right, #ae2896, #509bf5);
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+      } </style>
+</body>
+</html>
